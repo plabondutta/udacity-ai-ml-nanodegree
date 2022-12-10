@@ -1,0 +1,10 @@
+root@180e321451c4:/home/workspace/ImageClassifier# python predict.py ./flowers/test/18/image_04272.jpg ./image_classifier_1.pth --category_names cat_to_name.json 
+--gpu gpu
+/opt/conda/lib/python3.6/site-packages/torchvision-0.2.1-py3.6.egg/torchvision/models/densenet.py:212: UserWarning: nn.init.kaiming_normal is now deprecated in fa
+vor of nn.init.kaiming_normal_.
+Input: ./flowers/test/18/image_04272.jpg
+Class: 18 --- Flower: "peruvian lily" --- Probability: 0.2244100719690323
+Class: 43 --- Flower: "sword lily" --- Probability: 0.04777258262038231
+Class: 31 --- Flower: "carnation" --- Probability: 0.04724424332380295
+Class: 83 --- Flower: "hibiscus" --- Probability: 0.04441213235259056
+Class: 80 --- Flower: "anthurium" --- Probability: 0.03836123645305633
