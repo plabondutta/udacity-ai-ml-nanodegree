@@ -102,3 +102,5 @@ ENV/
 
 *.pth
 /flowers
+
+.DS_Store
